@@ -1,2 +1,1 @@
 # LabSemnale
-# LabSemnale
