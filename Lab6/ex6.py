@@ -20,6 +20,7 @@ for idx, w in enumerate(ferestre):
     axes1[idx+1].grid(True)
 
 plt.tight_layout()
+plt.savefig('ex6a.pdf')
 plt.show()
 
 fs = 1
@@ -56,6 +57,7 @@ axes2[2].legend()
 axes2[2].grid(True)
 
 plt.tight_layout()
+plt.savefig('ex6b.pdf')
 plt.show()
 
 ordine = [3, 5, 7]
@@ -71,6 +73,7 @@ for idx, ordin in enumerate(ordine):
     axes3[idx].grid(True)
 
 plt.tight_layout()
+plt.savefig('ex6c.pdf')
 plt.show()
 
 rp_values = [1, 5, 10]
@@ -86,4 +89,5 @@ for idx, rp in enumerate(rp_values):
     axes4[idx].grid(True)
 
 plt.tight_layout()
+plt.savefig('ex6d.pdf')
 plt.show()

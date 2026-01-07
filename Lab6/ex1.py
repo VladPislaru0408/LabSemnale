@@ -38,4 +38,5 @@ for idx, fr in enumerate(frequencies):
 
 fig.suptitle('Functia x(t) = sinc^2(t) esantionata la diferite frecvente', fontsize=14, fontweight='bold')
 plt.tight_layout()
+plt.savefig('ex1.pdf')
 plt.show()

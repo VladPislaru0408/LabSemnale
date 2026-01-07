@@ -41,4 +41,5 @@ plt.subplot(1, 3, 3)
 plt.imshow(X_filtrat, cmap="gray")
 plt.title("Filtrat")
 
+plt.savefig('ex3.pdf')
 plt.show()

@@ -34,4 +34,5 @@ plt.subplot(1, 2, 2)
 plt.imshow(Z, cmap="gray")
 plt.title("Compressed")
 
+plt.savefig('ex2.pdf')
 plt.show()

@@ -51,4 +51,5 @@ axes[2, 1].set_title('Sinusoida cu fereastra Hanning')
 axes[2, 1].grid(True)
 
 plt.tight_layout()
+plt.savefig('ex5.pdf')
 plt.show()

@@ -32,6 +32,7 @@ axes[3].set_title('IFFT(FFT(y) / FFT(x))')
 axes[3].grid(True)
 
 plt.tight_layout()
+plt.savefig('ex4.pdf')
 plt.show()
 
 print(f'Deplasare originala: {d}')

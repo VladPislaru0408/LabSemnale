@@ -28,4 +28,5 @@ axes[3].set_title('x4 = x3 * x3')
 axes[3].grid(True)
 
 plt.tight_layout()
+plt.savefig('ex2.pdf')
 plt.show()
